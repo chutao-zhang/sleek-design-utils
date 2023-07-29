@@ -3,7 +3,7 @@
 ### 安装
 
 ```js
-$ npm install @sleek-design/utils
+npm install @sleek-design/utils
 ```
 
 ### 使用
