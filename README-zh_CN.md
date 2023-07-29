@@ -1,3 +1,5 @@
+<a href="https://github.com/chutao-zhang/sleek-design-utils/tree/master#readme" target="_blank">Englist</a> | 中文
+
 ### 安装
 
 ```js

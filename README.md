@@ -1,3 +1,5 @@
+Englist | <a href="https://github.com/chutao-zhang/sleek-design-utils/blob/master/README-zh_CN.md" target="_blank">中文</a>
+
 ### Installation
 
 ```js
