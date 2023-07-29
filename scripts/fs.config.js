@@ -18,9 +18,11 @@ function removeFiles(sourceDir) {
         fs.unlinkSync(filePath);
       }
     });
-    
-    // 删除空目录
-    fs.rmdirSync(sourceDir);
+
+    if (fs.readdirSync(sourceDir).length === 0) {
+      // 删除空目录
+      fs.rmdirSync(sourceDir);
+    }
   }
 }
 
