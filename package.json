@@ -4,6 +4,11 @@
   "description": "A simple javascript utils.",
   "main": "index.js",
   "types": "index.d.ts",
+  "keywords": ["sleek", "sleek-design", "typescript", "javascript", "js", "utils"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chutao-zhang/sleek-design-utils.git"
+  },
   "scripts": {
     "rm": "node scripts/fs.config.js rm dist",
     "cp": "node scripts/fs.config.js cp ./ dist",
