@@ -18,7 +18,7 @@ function removeFiles(sourceDir) {
         fs.unlinkSync(filePath);
       }
     });
-
+    
     // 删除空目录
     fs.rmdirSync(sourceDir);
   }

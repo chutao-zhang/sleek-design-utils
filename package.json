@@ -2,16 +2,16 @@
   "name": "@sleek-design/utils",
   "version": "0.0.1",
   "description": "A simple javascript utils.",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "keywords": ["sleek", "sleek-design", "typescript", "javascript", "js", "utils"],
   "repository": {
     "type": "git",
     "url": "https://github.com/chutao-zhang/sleek-design-utils.git"
   },
   "scripts": {
-    "rm": "node scripts/fs.config.js rm dist",
-    "cp": "node scripts/fs.config.js cp ./ dist",
+    "rm": "node scripts/fs.config.js rm @sleek-design",
+    "cp": "node scripts/fs.config.js cp ./ @sleek-design/utils",
     "tsc": "npm run rm && tsc && npm run cp"
   },
   "author": "ChuTao Zhang",
