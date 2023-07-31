@@ -10,8 +10,8 @@
     "url": "https://github.com/chutao-zhang/sleek-design-utils.git"
   },
   "scripts": {
-    "rm": "node scripts/fs.config.js rm @sleek-design",
-    "cp": "node scripts/fs.config.js cp ./ @sleek-design/utils",
+    "rm": "node scripts/fs.config.js rm",
+    "cp": "node scripts/fs.config.js cp",
     "tsc": "npm run rm && tsc && npm run cp"
   },
   "author": "ChuTao Zhang",

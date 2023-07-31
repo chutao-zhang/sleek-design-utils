@@ -55,14 +55,12 @@ function copyFiles(sourceDir, targetDir) {
 (function () {
   const args = process.argv.slice(2);
   const cmd = args[0];
-  const sourceDir = args[1];
-  const targetDir = args[2];
 
   if (cmd === "rm") {
-    removeFiles(sourceDir);
+    removeFiles("@sleek-design");
   }
 
   if (cmd === "cp") {
-    copyFiles(sourceDir, targetDir || `${sourceDir} Copy`);
+    copyFiles("./", "@sleek-design/utils");
   }
 })();
